@@ -1,0 +1,89 @@
+/* Container for the list items (customers/products) */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between each list item */
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+/* Styling for each individual list item (customer/product) */
+.list-item {
+  background-color: #e0f7fa; /* Light, soft color resembling a bubble */
+  border-radius: 30px; /* Increased border radius for a more "bubbly" look */
+  margin-bottom: 10px; /* Space between list items */
+  padding: 15px 20px; /* Add some internal padding to make the bubbles more pronounced */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  width: 100%; /* Ensure it spans the screen width */
+  max-width: 1000px; /* Optionally, set a max-width for readability */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: flex-start; /* Align name, price, description in a column */
+  align-items: flex-start; /* Align to the left */
+}
+
+/* Optional: Styling for individual customer/product details */
+.list-item div {
+  margin-bottom: 5px; /* Space between text lines */
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styling for Name and Price to be in the same row */
+.list-item-header {
+  display: flex;
+  justify-content: space-between; /* Align name and price on the same row */
+  width: 100%;
+  align-items: center; /* Align vertically in the middle */
+}
+
+/* Styling for the Customer/Product Name */
+.customer-name, .product-name {
+  font-weight: bold; /* Make the name bold */
+  font-size: 18px;
+  flex-grow: 1; /* Allow the name to take up remaining space */
+}
+
+/* Styling for the Product Price (now top right) */
+.product-price {
+  font-size: 16px;
+  color: #00796b;
+  align-self: flex-end; /* Align the price to the right */
+}
+
+/* Styling for the Description */
+.product-description {
+  font-style: italic; /* Italics for description */
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px; /* Space before description */
+}
+
+/* Style the action buttons container (now top right) */
+.list-item-actions {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px; /* Space between description and actions */
+  justify-content: flex-end; /* Align buttons to the right */
+  width: 100%;
+}
+
+/* Styling for the action buttons to look more modern */
+.list-button {
+  padding: 8px 12px;
+  border-radius: 25px; /* Rounded buttons to match the bubble effect */
+  border: none;
+  cursor: pointer;
+  background-color: #00796b; /* Default button color */
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Hover effects for the buttons */
+.list-button:hover {
+  background-color: #004d40; /* Darker shade on hover */
+  opacity: 0.8;
+}
