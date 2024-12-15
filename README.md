@@ -1,1 +1,1 @@
-# True `RAEDME.md` is contained within the ecommerce-app
+# True `README.md` is contained within the ecommerce-app
