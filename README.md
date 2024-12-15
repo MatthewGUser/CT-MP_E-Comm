@@ -1,2 +1,1 @@
-# CT-MP_E-Comm
-Temp
+# True `RAEDME.md` is contained within the ecommerce-app
