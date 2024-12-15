@@ -22,8 +22,8 @@ The app uses React Context API for state management and localStorage to persist 
 1. Clone the repo
 
 ```git clone https://github.com/your-username/e-commerce-app.git```
-2. Navigate into the project directory:
 
+2. Navigate into the project directory:
 
 ```cd e-commerce-app```
 
