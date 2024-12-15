@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # E-Commerce App
 
 This is a React-based E-Commerce application. The app allows customers to browse products, add them to a shopping cart, and place orders. It utilizes context for managing customer, product, and order states.
