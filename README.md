@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E-Commerce App
 
 This is a React-based E-Commerce application. The app allows customers to browse products, add them to a shopping cart, and place orders. It utilizes context for managing customer, product, and order states.
@@ -95,3 +96,6 @@ e-commerce-app/
 
 ## Summary
 The E-Commerce App is a React-based application designed to manage customers, products, and orders for an online store. Users can create and manage customer profiles, browse products, add items to a shopping cart, place orders, and view order history. The app uses the React Context API for state management and persists cart data in localStorage, making the shopping experience seamless even across sessions. The app also includes features for admins to manage products and customer details.
+=======
+# True `README.md` is contained within the ecommerce-app
+>>>>>>> e5ae7aa81c80a25d9826c7d0c7de5916022e1dc5
