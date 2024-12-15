@@ -20,13 +20,21 @@ The app uses React Context API for state management and localStorage to persist 
 
 ### Steps
 1. Clone the repo
+
 ```git clone https://github.com/your-username/e-commerce-app.git```
 2. Navigate into the project directory:
+
+
 ```cd e-commerce-app```
+
 3. Install the dependencies:
+
 ```npm install```
+
 4. Start the development server:
+
 ```npm start```
+
 5. Open your browser and go to http://localhost:3000.
 
 
@@ -95,6 +103,3 @@ e-commerce-app/
 
 ## Summary
 The E-Commerce App is a React-based application designed to manage customers, products, and orders for an online store. Users can create and manage customer profiles, browse products, add items to a shopping cart, place orders, and view order history. The app uses the React Context API for state management and persists cart data in localStorage, making the shopping experience seamless even across sessions. The app also includes features for admins to manage products and customer details.
-=======
-# True `README.md` is contained within the ecommerce-app
->>>>>>> e5ae7aa81c80a25d9826c7d0c7de5916022e1dc5
